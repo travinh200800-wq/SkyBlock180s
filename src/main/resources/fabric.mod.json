@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "chaoscore",
+  "version": "1.0.0",
+  "name": "ChaosCore",
+  "description": "SkyBlock 180s",
+  "authors": [
+    "ConDoiVN"
+  ],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/NexusSphere/ChaosCore"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.nexussphere.chaoscore.ChaosCoreMod"
+    ]
+  },
+  "mixins": [
+    "chaoscore.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
